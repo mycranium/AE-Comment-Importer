@@ -248,7 +248,9 @@ var annotArray = allDataArray[1];
             var myMarker = new MarkerValue(thisArray[1]);
             myNull.property("Marker").setValueAtTime(thisArray[0], myMarker);
         }
-        addShapes(annotArray);
+        if (annotArray.length > 0) {
+            addShapes(annotArray);
+        }
     }
     // close the undo group
     app.endUndoGroup();
