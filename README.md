@@ -1,12 +1,13 @@
 This project is an After Effects script for importing comments and annotations from Frame.io into an After Effects comp.
 
-Frame.io has an extension that includes this functionality, but it is fairly heavy, and is not necessarily a good choice for After Effects users who only occasionally need to interact with Frame.io.
+Frame.io has an extension that includes this functionality, but it is fairly heavy and is not necessarily a good choice for After Effects users who only occasionally need to interact with Frame.io.
 
 The script is written in Adobe Extendscript, which is a dialect of ECMAScript, I believe 262-3 (it is a very old version of ECMAScript, and doesn't support many of the modern, useful methods that current ECMAScript has.
 
 The binaries folder contains binary exports of the script, which can be run from within After Effects just like the non-binary versions.
 
 NOTES FOR USERS
+
 The current version is only known to work on Windows. Development for Mac OS is underway.
 
 To use, you must downoad the comments from Frame.io as an XML file. The download icon is an inbox with a down-arrow pointing into it, at the top of the comments sidebar. Click that icon, then select "Download as file", and choose XML. Save the file somewhere you will be able to find.
